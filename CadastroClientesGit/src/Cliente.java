@@ -38,6 +38,10 @@ public class Cliente {
         this.email = email;
     }
 
+    public String exibirDados() {
+        return "Nome: " + nome + "\nTelefone: " + telefone + "\nEmail";
+    }
+
     @Override
     public String toString() {
         return "nome=" + nome + ", telefone=" + telefone + ", email=" + email + "]";
